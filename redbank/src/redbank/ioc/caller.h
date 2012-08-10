@@ -21,9 +21,9 @@ public://destructor
 public:// invoke
 
     /**
-     *  该方法执行了类方法的调用过程。
+     *  该方法执行了类方法的调用过程。再方法中对类方法的参数进行解包，返回调用结果的包装器
      *  @param obj 指向与被调用方法关联的类的指针
-     *  @param params 参数
+     *  @param params 时间调用方法的参数包装器
      *  @return 返回调用结果
      */
     virtual Variant invoke(void* obj,const Parameters& params) = 0;
