@@ -25,6 +25,7 @@ public:
 private:
     class Impl;
     shared_ptr<Impl> impl;
+
 };
 
 #endif // RED_BANK_LIBRARY_MANAGER_H

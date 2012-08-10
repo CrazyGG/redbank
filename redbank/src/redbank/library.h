@@ -5,4 +5,5 @@ class Library{
 
 };
 
+
 #endif // RED_BANK_LIBRARY_H
