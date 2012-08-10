@@ -8,18 +8,18 @@
 #include <boost/any.hpp>
 
 // platform type definition
-#define Char		char;
-#define Byte		int8_t;
-#define Short		int16_t;
-#define	Integer 	int32_t;
-#define Long		int64_t;
-#define Double		double;
-#define Float		float;
-#define String 		std::string;
-#define Date		boost::gregorian::date; 
-#define DateTime 	boost::posix_time::ptime;
-#define Timestamp 	boost::posix_time::ptime;
-#define Variant		boost::any;
+#define Char		char
+#define Byte		int8_t
+#define Short		int16_t
+#define	Integer 	int32_t
+#define Long		int64_t
+#define Double		double
+#define Float		float
+#define String 		std::string
+#define Date		boost::gregorian::date
+#define DateTime 	boost::posix_time::ptime
+#define Timestamp 	boost::posix_time::ptime
+#define Variant		boost::any
 
 #define variant_cast(T,obj)	boost::any_cast<T>(obj)
 
