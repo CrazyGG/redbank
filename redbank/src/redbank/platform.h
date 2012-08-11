@@ -15,6 +15,7 @@
 #define Long		int64_t
 #define Double		double
 #define Float		float
+#define Boolean		bool
 #define String 		std::string
 #define Date		boost::gregorian::date
 #define DateTime 	boost::posix_time::ptime
@@ -23,6 +24,20 @@
 
 #define variant_cast(T,obj)	boost::any_cast<T>(obj)
 
+enum PrimitiveTypeFlag{
+	CHAR,
+	BYTE,
+	SHORT,
+	INTEGER,
+	LONG,
+	DOUBLE,
+	FLOAT,
+	BOOLEAN,
+	STRING,
+	DATE,
+	DATETIME,
+	TIMESTAMP
+}
 
 #ifdef WINDOWS
 	#define DLL_EXPORT _declspec(dllexport)
