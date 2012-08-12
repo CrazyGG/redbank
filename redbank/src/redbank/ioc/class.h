@@ -1,6 +1,13 @@
+// Copyright (C) by redbank.com
+
+
 #ifndef RED_BANK_IOC_CLASS_H
 #define RED_BANK_IOC_CLASS_H
 
+/**
+*\file class.h
+* class class
+*/
 #include <redbank/platform.h>
 
 #include <redbank/ioc/field.h>
@@ -13,9 +20,22 @@
 #include <map>
 #include <vector>
 
+/**
+* 主命名空间，包含所有api组件
+*/
 namespace redbank {
+
+/**
+* 依赖注入容器命名空间，包含所有相关组件
+*/
 namespace ioc{
 
+
+/**
+*\brief Class类是类型的元对象类，包含类型的相关信息
+*
+*
+*/
 class Class{
 public:
     Class(const String& name,const map<String,Method*>& method_map,const map<String,field*>& field_map,map<String,Constructor*>& constructor_map,const Destructor& destructor)

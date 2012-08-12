@@ -10,10 +10,10 @@ HEADERS += \
     ../src/redbank/ioc/consructor.h \
     ../src/redbank/ioc/class.h \
     ../src/redbank/ioc/caller.h \
-    ../src/redbank/ioc/beanfactory.h \
     ../src/redbank/platform.h \
     ../src/redbank/librarymanager.h \
-    ../src/redbank/library.h
+    ../src/redbank/library.h \
+    ../src/redbank/ioc/objectfactory.h
 SOURCES += \
     ../src/redbank/ioc/iocc.cpp \
     ../src/redbank/ioc/beanfactroty.cpp
